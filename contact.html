@@ -12,32 +12,28 @@
         <link rel="stylesheet" href="estilos/estilopersonal.css">
     </head>
     <body>
-        <header class="main-header">
-            <div class="row no-gutters">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <ion-icon name="menu-outlin lead-xl text-light"></ion-icon>
+        <header class="container_nav">
+            <nav class="container_nav navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <div class="col-4">
+                        <a class="navbar-brand" href="#">fmendozac</a>
+                    </div>
+                    <div class="col-8 nav_items">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                            <a class="nav-link text-light lead" href="/index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link text-light lead" href="/about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light lead" href="/contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light lead-xl" href="#"><ion-icon name="menu-outline"></ion-icon></a>
-                            </li>
-                        </ul>
+                        <div class="collapse nav_items navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </div>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <!--<header class="container_nav">
             <nav class="container_nav navbar navbar-expand-lg navbar-light bg-light">
@@ -63,8 +59,41 @@
             </nav>
         </header>-->
         <section class="main-content">
-            <div>
-                <h3>Contacto Personal</h3>
+            <div class="about-section">
+                <div >
+                    <h3 class="text-dark font-weight-bold">Formulario Para Contacto</h3>
+                </div>
+                
+                <div class="mb-3">
+                    <h5 class="text-dark font-weight-bold" for="exampleFormControlInput1" class="form-label">Email:</h5>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                  </div>
+                  <div class="mb-3">
+                    <h5 class="text-dark font-weight-bold" for="exampleFormControlInput2" class="form-label">DNI:</h5>
+                    <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="ingrese #DNI">
+                  </div>
+                  <div class="mb-3">
+                    <h5 class="text-dark font-weight-bold" for="exampleFormControlInput3" class="form-label">Celular:</h5>
+                    <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="ingrese # de celular">
+                  </div>
+                  <div class="mb-3">
+                    <h5 class="text-dark font-weight-bold" for="exampleFormControlInput4" class="form-label">Fecha de Nacimiento:</h5>
+                    <input type="date" class="form-control" id="exampleFormControlInput4" placeholder="ingrese fecha de nacimiento">
+                  </div>
+                  <div class="mb-3">
+                    <h5 class="text-dark font-weight-bold" for="exampleFormControlTextarea1" class="form-label">Asunto:</h5>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <h5 class="text-dark font-weight-bold" for="exampleFormControlInput5" class="form-label">Nombre Completo:</h5>
+                    <input type="text" class="form-control" id="exampleFormControlInput5" placeholder="Nombres y Apellidos">
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Confirmar y Enviar</button>
+                  </div>
+            </div>
+            <div class="about-section"  style="justify-content: center;">
+                <h3 class="text-dark font-weight-bold">Contacto Personal</h3>
                 <table>
                     <tr>
                         <td>Email: <a href="correo:fmendozac14@unc.edu.pe">fmendozac14@unc.edu.pe</a></td>
