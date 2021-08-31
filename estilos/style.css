@@ -4,6 +4,9 @@
     --color-gold: #c7b8a5;
     --color-grey: #efefef;
 }
+.header-contact{
+    color: white;
+}
 body{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
@@ -50,6 +53,13 @@ body{
 .border-right{
     border-right: 1px solid rgba(256, 256, 256, .1) !important;
 }
+.main-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 @media (max-width:991.98px){
     .content{
         padding: 5rem 0;
