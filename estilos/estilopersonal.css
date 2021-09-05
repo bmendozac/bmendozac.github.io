@@ -43,8 +43,8 @@ p{
 .main-content{
     background: white;
     text-align: center;
-    width: 90%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 900px;
     margin: 20px auto;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     padding: 2%;
@@ -57,7 +57,7 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    padding:1%;
+    padding:0.5%;
     background: black;
 }
 .social_links{

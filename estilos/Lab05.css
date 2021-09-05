@@ -1,0 +1,36 @@
+.content-lab05{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c8f5e8;
+    padding: 4%;
+}
+h2{
+    font-weight: bold;
+}
+.caja-azul{
+    background-color: #1d6fa9;
+    color: #fff;
+    border-radius: 0;
+}
+.caja-roja{
+    background-color: #b74919;
+    color: #fff;
+    border-radius: 0;
+}
+.borde-rojo{
+    border: 1px solid #b74919;
+}
+
+.boton-amarillo{
+    background-color: #f19d19;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.boton-rojo{
+    background-color: #b74919;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.longitud-caja-content .input-group-prepend{
+    width: 170px;
+}
