@@ -2,6 +2,9 @@
     window.onload = function(){
         let extraerButton = document.getElementById("extraer")
         extraerButton.onclick = extraer;
+
+        let colorearButton = document.getElementById("colorear")
+        colorearButton.onclick = colorear;
     };
 
     //extraer Datos
@@ -49,4 +52,17 @@
         return primerApellido.length + segundoApellido.length
     }
 
+    //cambio de color
+    function colorear(){
+        let cambio = document.querySelectorAll('.input-group-text')
+        cambio.forEach(function (elemento){
+            if (elemento.classList.contains("caja-roja")) {
+                elemento.classList.remove("caja-roja");
+                elemento.classList.add("caja-azul"); 
+            } else {
+                elemento.classList.remove("caja-azul");
+                elemento.classList.add("caja-roja");
+            }
+        });
+    }
 })();
